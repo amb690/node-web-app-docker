@@ -1,0 +1,16 @@
+CONTAINER ID        IMAGE                 COMMAND                  CREATED             STATUS              PORTS                     NAMES
+c5ef0901cc3a        ubuntu/node-web-app   "docker-entrypoint.s…"   43 seconds ago      Up 41 seconds       0.0.0.0:49160->8080/tcp   ecstatic_spence
+
+> docker_web_app@1.0.0 start /usr/src/app
+> node server.js
+
+Running on http://0.0.0.0:8080
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: text/html; charset=utf-8
+Content-Length: 12
+ETag: W/"c-M6tWOb/Y57lesdjQuHeB1P/qTV0"
+Date: Tue, 18 Jun 2019 14:14:26 GMT
+Connection: keep-alive
+
+Hello world
